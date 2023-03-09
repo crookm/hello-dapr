@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{0328F0E2-E5B2-4BB3-A2B3-67E18F8C0ACB}"
 	ProjectSection(SolutionItems) = preProject
 		dapr.yaml = dapr.yaml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
