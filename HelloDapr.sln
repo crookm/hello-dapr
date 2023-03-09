@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{32CF0F9B-F157-4F9C-834D-51E944245C30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{F69B6B1C-54AB-4526-A4D6-0484E18943A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDapr.Service.Greeter", "src\service\HelloDapr.Service.Greeter\HelloDapr.Service.Greeter.csproj", "{DF0ECE95-132C-497F-9DA1-0FB7BFF3F2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDapr.Service.Math", "src\service\HelloDapr.Service.Math\HelloDapr.Service.Math.csproj", "{FF8F4494-B3A9-4F90-ACF4-748060852393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDapr.Api", "src\HelloDapr.Api\HelloDapr.Api.csproj", "{55024941-4298-410C-B4FA-3CB10FFB7DB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{0328F0E2-E5B2-4BB3-A2B3-67E18F8C0ACB}"
+	ProjectSection(SolutionItems) = preProject
+		dapr.yaml = dapr.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F69B6B1C-54AB-4526-A4D6-0484E18943A8} = {32CF0F9B-F157-4F9C-834D-51E944245C30}
+		{DF0ECE95-132C-497F-9DA1-0FB7BFF3F2D8} = {F69B6B1C-54AB-4526-A4D6-0484E18943A8}
+		{FF8F4494-B3A9-4F90-ACF4-748060852393} = {F69B6B1C-54AB-4526-A4D6-0484E18943A8}
+		{55024941-4298-410C-B4FA-3CB10FFB7DB7} = {32CF0F9B-F157-4F9C-834D-51E944245C30}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF0ECE95-132C-497F-9DA1-0FB7BFF3F2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0ECE95-132C-497F-9DA1-0FB7BFF3F2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0ECE95-132C-497F-9DA1-0FB7BFF3F2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0ECE95-132C-497F-9DA1-0FB7BFF3F2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8F4494-B3A9-4F90-ACF4-748060852393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8F4494-B3A9-4F90-ACF4-748060852393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8F4494-B3A9-4F90-ACF4-748060852393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8F4494-B3A9-4F90-ACF4-748060852393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55024941-4298-410C-B4FA-3CB10FFB7DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55024941-4298-410C-B4FA-3CB10FFB7DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55024941-4298-410C-B4FA-3CB10FFB7DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55024941-4298-410C-B4FA-3CB10FFB7DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

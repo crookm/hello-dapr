@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "HelloDapr.Service.Math";
+
+package math;
+
+service Addition {
+  rpc AddNumbers (AddNumbersRequest) returns (AddNumbersReply);
+}
+
+message AddNumbersRequest {
+  repeated int32 number = 1;
+}
+
+message AddNumbersReply {
+  int32 result = 1;
+}

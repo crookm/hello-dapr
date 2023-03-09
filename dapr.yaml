@@ -1,0 +1,16 @@
+version: 1
+apps:
+  - appID: greeter-service
+    appPort: 5201
+    appDirPath: ./src/service/HelloDapr.Service.Greeter/
+    command: [ "dotnet", "run" ]
+
+  - appID: math-service
+    appPort: 5111
+    appDirPath: ./src/service/HelloDapr.Service.Math/
+    command: [ "dotnet", "run" ]
+
+  - appID: api-service
+    appPort: 5042
+    appDirPath: ./src/HelloDapr.Api/
+    command: [ "dotnet", "run" ]
