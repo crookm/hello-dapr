@@ -9,14 +9,14 @@
     <ItemGroup>
         <PackageReference Include="Dapr.AspNetCore" Version="1.10.0" />
         <PackageReference Include="Dapr.Client" Version="1.10.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.51.0" />
         <PackageReference Include="Grpc.Net.Client" Version="2.51.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\service\HelloDapr.Service.Greeter\HelloDapr.Service.Greeter.csproj" />
-      <ProjectReference Include="..\service\HelloDapr.Service.Math\HelloDapr.Service.Math.csproj" />
+      <ProjectReference Include="..\HelloDapr.Contracts\HelloDapr.Contracts.csproj" />
     </ItemGroup>
 
 </Project>

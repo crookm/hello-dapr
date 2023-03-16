@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "HelloDapr.Service.Math";
+option csharp_namespace = "HelloDapr.Contracts";
 
 package math;
 

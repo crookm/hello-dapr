@@ -1,6 +1,5 @@
 using Dapr.Client;
-using HelloDapr.Service.Greeter;
-using HelloDapr.Service.Math;
+using HelloDapr.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 

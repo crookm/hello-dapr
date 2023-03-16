@@ -1,4 +1,5 @@
 using Grpc.Core;
+using HelloDapr.Contracts;
 
 namespace HelloDapr.Service.Math.Services;
 

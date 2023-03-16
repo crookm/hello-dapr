@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "HelloDapr.Service.Greeter";
+option csharp_namespace = "HelloDapr.Contracts";
 
 package greet;
 

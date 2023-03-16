@@ -1,5 +1,4 @@
-using HelloDapr.Service.Greeter;
-using HelloDapr.Service.Math;
+using HelloDapr.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HelloDapr.Api.Controllers;

@@ -7,11 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\math.proto"/>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.51.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Grpc.AspNetCore" Version="2.49.0"/>
+      <ProjectReference Include="..\..\HelloDapr.Contracts\HelloDapr.Contracts.csproj" />
     </ItemGroup>
 
 </Project>
