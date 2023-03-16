@@ -4,9 +4,11 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Google.Api.CommonProtos" Version="2.8.0" />
         <PackageReference Include="Google.Protobuf" Version="3.22.1" />
         <PackageReference Include="Grpc.Net.Common" Version="2.51.0" />
         <PackageReference Include="Grpc.Tools" Version="2.52.0">
@@ -16,15 +18,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos/**/*.proto" ProtoRoot="Protos" />
-        <Protobuf Update="Protos\greet.proto">
-          <GrpcServices>Both</GrpcServices>
-          <Access>Public</Access>
-          <ProtoCompile>True</ProtoCompile>
-          <CompileOutputs>True</CompileOutputs>
-          <OutputDir>obj\Debug/net7.0/</OutputDir>
-          <Generator>MSBuild:Compile</Generator>
-        </Protobuf>
+        <Protobuf Include="Protos/greet.proto" ProtoRoot="Protos" />
+        <Protobuf Include="Protos/math.proto" ProtoRoot="Protos" />
     </ItemGroup>
 
 </Project>
